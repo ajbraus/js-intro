@@ -11,7 +11,7 @@ const hide = (elem) => { elem.style.display = 'none' };
 
 // Toggle element visibility
 const toggle = (elem) => {
-	window.getComputedStyle(elem).display === 'block') ? hide(elem) : show(elem)
+	window.getComputedStyle(elem).display === 'block' ? hide(elem) : show(elem)
 };
 
 hideMe.addEventListener('click', () => {

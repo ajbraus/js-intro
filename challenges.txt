@@ -1,0 +1,14 @@
+
+Make a button that when you click it makes the #box green
+  - change the css of background to "green"
+  - add the class `bg-success` to a div (define bg-success as background:green)
+
+
+Make a comment form
+  1. Make a form with a textarea and button
+  2. when the form is submitted
+  3. take the text in the textarea and append it to a list called #comments
+  4. (stretch) do not append empty strings
+  5 (stretch) keep track of when each comment is submitted with `new Date()`
+
+Make a button, that when you click it, it increments the number of paperclips
